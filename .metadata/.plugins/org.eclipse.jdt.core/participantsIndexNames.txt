@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\dev\best\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3894840143.index
+\lamp_web\src\main\resources
