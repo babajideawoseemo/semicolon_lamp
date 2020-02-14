@@ -1,0 +1,6 @@
+package com.lamp.dao;
+
+public interface ApplicantRepository extends MongoRepsoitory {
+
+	
+}

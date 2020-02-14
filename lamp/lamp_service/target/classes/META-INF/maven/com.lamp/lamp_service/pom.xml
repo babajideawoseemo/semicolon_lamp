@@ -7,13 +7,17 @@
   </parent>
   <artifactId>lamp_service</artifactId>
   
-    <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.2.4.RELEASE</version>
-    <type>pom</type>
-</dependency>
-  </dependencies>
+    	<dependencies>
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-parent</artifactId>
+		    <version>2.2.4.RELEASE</version>
+		    <type>pom</type>
+			</dependency>
+			<dependency>
+				<groupId>com.lamp</groupId>
+				<artifactId>lamp_data</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+  		</dependencies>
 </project>
