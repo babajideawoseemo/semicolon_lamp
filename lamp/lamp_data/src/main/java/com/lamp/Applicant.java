@@ -9,8 +9,9 @@ public class Applicant {
 	private String phone;
 	private String password;
 	private ApplicationStatus applicationStatus = ApplicationStatus.APPLIED;
-	private  int AgeRange;
+	private  byte AgeRange;
 	private Quiz quiz;
+	private ApplicantQuizResponse applicantQuizResponse;
 	public String getApplicationId() {
 		return applicationId;
 	}
@@ -56,7 +57,7 @@ public class Applicant {
 	public int getAgeRange() {
 		return AgeRange;
 	}
-	public void setAgeRange(int ageRange) {
+	public void setAgeRange(byte ageRange) {
 		AgeRange = ageRange;
 	}
 	public Quiz getQuiz() {
@@ -64,6 +65,12 @@ public class Applicant {
 	}
 	public void setQuiz(Quiz quiz) {
 		this.quiz = quiz;
+	}
+	public ApplicantQuizResponse getApplicantQuizResponse() {
+		return applicantQuizResponse;
+	}
+	public void setApplicantQuizResponse(ApplicantQuizResponse applicantQuizResponse) {
+		this.applicantQuizResponse = applicantQuizResponse;
 	}
 	
 	

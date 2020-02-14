@@ -27,6 +27,8 @@ public class QuizPool {
 		generalQuestions.remove(question.getQuestionID());
 	}
 	
+	public Quiz generateQuiz(int noOfQuestion, Applicant applicant, )
+	
 	
 	
 	
