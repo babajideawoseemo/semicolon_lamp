@@ -10,7 +10,7 @@ public class Applicant {
 	private String password;
 	private ApplicationStatus applicationStatus = ApplicationStatus.APPLIED;
 	private  int AgeRange;
-	//private List<Quiz> quiz = new ArrayList<Quiz>;
+	private Quiz quiz;
 	public String getApplicationId() {
 		return applicationId;
 	}
@@ -59,6 +59,13 @@ public class Applicant {
 	public void setAgeRange(int ageRange) {
 		AgeRange = ageRange;
 	}
+	public Quiz getQuiz() {
+		return quiz;
+	}
+	public void setQuiz(Quiz quiz) {
+		this.quiz = quiz;
+	}
+	
 	
 	
 	
