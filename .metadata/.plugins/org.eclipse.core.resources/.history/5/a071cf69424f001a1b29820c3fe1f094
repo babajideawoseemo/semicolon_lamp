@@ -1,0 +1,13 @@
+package com.lamp.dao;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.lamp.Applicant;
+
+public interface ApplicantRepository extends MongoRepository<Applicant, String> {
+
+	public Applicant findApplicantById(String applicantId);
+	
+	
+	
+}
