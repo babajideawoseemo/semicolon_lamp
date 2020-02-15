@@ -1,4 +1,4 @@
-package com.lamp;
+package com.lamp.entities;
 
 import java.util.ArrayList;
 import java.util.List;

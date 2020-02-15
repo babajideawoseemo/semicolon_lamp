@@ -1,4 +1,4 @@
-package com.lamp;
+package com.lamp.entities;
 
 public class ApplicantQuizResponse {
 	private byte[] questionId;

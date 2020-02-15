@@ -1,22 +1,20 @@
 package com.lamp;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import java.util.List;
 
-import com.lamp.dao.ApplicantRepository;
+import com.lamp.entities.Applicant;
 
-@Service
-public class ApplicantService {
 
-	@Autowired
-	private ApplicantRepository applicantRepository; 
+public interface ApplicantService {
 	
-	public Applicant create(Applicant applicant) {
-		
-		//Applicant applicant = new Applicant("Omotolani","Ligali","ligaliomotolani","ljdkdkjd","08124590266",1); 
-		
-		applicantRepository.save(applicant);
-		
-		return applicant;
-	}
+	public Applicant createApplicant(Applicant applicant);
+	
+	public Applicant updateApplicant(Applicant applicant, String id);
+	
+	public List<Applicant> fetchAllApplicant();
+	
+	public Applicant getApplicant(String id);
+	
+	public void deleteApplicant(String id);
+
 }

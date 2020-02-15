@@ -1,4 +1,4 @@
-package com.lamp;
+package com.lamp.entities;
 
 //Chibuzo SCV2003
 

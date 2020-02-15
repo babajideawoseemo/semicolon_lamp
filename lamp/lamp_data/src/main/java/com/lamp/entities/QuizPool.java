@@ -1,7 +1,6 @@
-package com.lamp;
+package com.lamp.entities;
 
 import java.util.ArrayList;
-
 import java.util.List;
 
 public class QuizPool {
@@ -27,7 +26,7 @@ public class QuizPool {
 		generalQuestions.remove(question.getQuestionID());
 	}
 	
-	public Quiz generateQuiz(int noOfQuestion, Applicant applicant, )
+	
 	
 	
 	

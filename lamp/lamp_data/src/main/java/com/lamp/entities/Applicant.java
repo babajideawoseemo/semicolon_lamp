@@ -1,4 +1,4 @@
-package com.lamp;
+package com.lamp.entities;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -14,15 +14,11 @@ public class Applicant {
 	private String email;
 	private String phone;
 	private String password;
-<<<<<<< HEAD:lamp/lamp_data/src/main/java/com/lamp/entities/Applicant.java
 	private ApplicationStatus applicationStatus = ApplicationStatus.APPLIED;
 	private  byte AgeRange;
 	private Quiz quiz;
 	private ApplicantQuizResponse applicantQuizResponse;
-	public String getApplicationId() {
-		return applicationId;
-=======
-	private  int ageRange;	
+	
 	
 	public Applicant() {
 		
@@ -36,12 +32,12 @@ public class Applicant {
 		this.email = email;
 		this.phone = phone;
 		this.password = password;
-		this.ageRange = ageRange;
+		
 	}
 	
 	public String getId() {
 		return id;
->>>>>>> 6f040b984b8809fa5620dfa918f4357c09699d40:lamp/lamp_data/src/main/java/com/lamp/Applicant.java
+
 	}
 
 	public void setId(String id) {
@@ -79,10 +75,8 @@ public class Applicant {
 		this.password = password;
 	}
 	
-	public int getAgeRange() {
-		return ageRange;
-	}
-<<<<<<< HEAD:lamp/lamp_data/src/main/java/com/lamp/entities/Applicant.java
+	
+
 	public void setAgeRange(byte ageRange) {
 		AgeRange = ageRange;
 	}
@@ -98,19 +92,17 @@ public class Applicant {
 	public void setApplicantQuizResponse(ApplicantQuizResponse applicantQuizResponse) {
 		this.applicantQuizResponse = applicantQuizResponse;
 	}
+	public String getApplicationId() {
+		return id;
+		
+	}	
 	
-	
-=======
-	public void setAgeRange(int ageRange) {
-		this.ageRange = ageRange;
-	}
 
 	@Override
 	public String toString() {
 		return "Applicant [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
-				+ ", phone=" + phone + ", password=" + password + ", ageRange=" + ageRange + "]";
+				+ ", phone=" + phone + ", password=" + password + "]";
 	}
->>>>>>> 6f040b984b8809fa5620dfa918f4357c09699d40:lamp/lamp_data/src/main/java/com/lamp/Applicant.java
 	
 	
 }
