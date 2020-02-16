@@ -1,6 +1,5 @@
 package com.lamp.entities;
 
-import java.sql.Date;
 import java.util.HashMap;
 
 public class QuestionnaireResponse {

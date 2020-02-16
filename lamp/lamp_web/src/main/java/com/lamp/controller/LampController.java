@@ -13,13 +13,13 @@ import com.lamp.ApplicantServiceImpl;
 public class LampController {
 
 	@Autowired
-	private ApplicantServiceImpl applicantservice;
+	private ApplicantServiceImpl applicantService;
 	
 	
 	@PostMapping("/apply")
 	public Applicant addApplicant(@RequestBody Applicant applicant) {
 	
-		return applicantservice.createApplicant(applicant);
+		return applicantService.createApplicant(applicant);
 		
 	}
 }

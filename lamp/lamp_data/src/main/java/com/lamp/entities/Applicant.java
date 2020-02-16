@@ -17,12 +17,11 @@ public class Applicant {
 	private ApplicationStatus applicationStatus = ApplicationStatus.APPLIED;
 	private  byte AgeRange;
 	private Quiz quiz;
-	private ApplicantQuizResponse applicantQuizResponse;
+
+	private Questionnaire questionnaire;
 	
 	
-	public Applicant() {
-		
-	}
+	public Applicant() {}
 
 	public Applicant(String firstName, String lastName, String email, String phone, String password,
 		 int ageRange) {
@@ -86,17 +85,31 @@ public class Applicant {
 	public void setQuiz(Quiz quiz) {
 		this.quiz = quiz;
 	}
-	public ApplicantQuizResponse getApplicantQuizResponse() {
-		return applicantQuizResponse;
-	}
-	public void setApplicantQuizResponse(ApplicantQuizResponse applicantQuizResponse) {
-		this.applicantQuizResponse = applicantQuizResponse;
-	}
+
 	public String getApplicationId() {
 		return id;
 		
-	}	
-	
+	}
+
+	public ApplicationStatus getApplicationStatus() {
+		return applicationStatus;
+	}
+
+	public void setApplicationStatus(ApplicationStatus applicationStatus) {
+		this.applicationStatus = applicationStatus;
+	}
+
+	public byte getAgeRange() {
+		return AgeRange;
+	}
+
+	public Questionnaire getQuestionnaire() {
+		return questionnaire;
+	}
+
+	public void setQuestionnaire(Questionnaire questionnaire) {
+		this.questionnaire = questionnaire;
+	}
 
 	@Override
 	public String toString() {

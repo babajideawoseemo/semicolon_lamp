@@ -16,7 +16,7 @@ public class ApplicantServiceImpl implements ApplicantService {
 	
 	public Applicant createApplicant(Applicant applicant) {
 		
-		//Applicant applicant = new Applicant("Omotolani","Ligali","ligaliomotolani","ljdkdkjd","08124590266",1); 
+		//Applicant applicant = new Applicant("Omotolani","Ligali","ligaliomotolani","ljdkdkjd","08124590266",1);
 		
 		applicantRepository.save(applicant);
 		
@@ -43,6 +43,7 @@ public class ApplicantServiceImpl implements ApplicantService {
 	}
 	
 	public void deleteApplicant(String id) {
+
 		applicantRepository.deleteById(id);
 	}
 }

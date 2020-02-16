@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lamp_web:war">
+    <output-path>$PROJECT_DIR$/lamp/lamp_web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>lamp_web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lamp_web.war">
+      <element id="artifact" artifact-name="lamp_web:war exploded" />
+    </root>
+  </artifact>
+</component>

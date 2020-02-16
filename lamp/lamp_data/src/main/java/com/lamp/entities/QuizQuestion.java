@@ -3,24 +3,24 @@ package com.lamp.entities;
 public class QuizQuestion {
 	private int questionID;
 	private String question;
-	private String[] options;
+	private OptionList optionList;
 	private int rightOption;
 	private int totalQuestions=0;
 	
 	
-	public QuizQuestion(String question, String[] options, int rightOption) {
+	public QuizQuestion(String question, OptionList optionList, int rightOption) {
 		totalQuestions++;
 		this.question = question;
-		this.options = options;
+		this.optionList = optionList;
 		this.rightOption = rightOption;
 		this.questionID = totalQuestions;
 	}
 	
 	
-	public QuizQuestion(String question, String[] options, char rightOption) {
+	public QuizQuestion(String question, OptionList optionList, char rightOption) {
 		totalQuestions++;
 		this.question = question;
-		this.options = options;
+		this.optionList = optionList;
 		this.questionID = totalQuestions;
 		switch (Character.toLowerCase(rightOption)) 
 		{
@@ -58,12 +58,31 @@ public class QuizQuestion {
 	public void setQuestion(String question) {
 		this.question = question;
 	}
-	public String[] getOptions() {
-		return options;
+
+	public OptionList getOptionList() {
+		return optionList;
 	}
-	public void setOptions(String[] options) {
-		this.options = options;
+
+	public void setOptionList(OptionList optionList) {
+		this.optionList = optionList;
 	}
+
+	public int getRightOption() {
+		return rightOption;
+	}
+
+	public void setRightOption(int rightOption) {
+		this.rightOption = rightOption;
+	}
+
+	public int getTotalQuestions() {
+		return totalQuestions;
+	}
+
+	public void setTotalQuestions(int totalQuestions) {
+		this.totalQuestions = totalQuestions;
+	}
+
 	public int getRightOptions() {
 		return rightOption;
 	}

@@ -44,6 +44,38 @@
     <artifactId>mongodb-driver</artifactId>
     <version>3.12.1</version>
 </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter</artifactId>
+          <version>5.4.2</version>
+          <scope>test</scope>
+      </dependency>
+<!--      <dependency>-->
+<!--          <groupId>org.junit.jupiter</groupId>-->
+<!--          <artifactId>junit-jupiter</artifactId>-->
+<!--          <version>5.4.2</version>-->
+<!--          <scope>test</scope>-->
+<!--      </dependency>-->
+<!--      <dependency>-->
+<!--          <groupId>org.junit.jupiter</groupId>-->
+<!--          <artifactId>junit-jupiter</artifactId>-->
+<!--          <version>5.4.2</version>-->
+<!--          <scope>test</scope>-->
+<!--      </dependency>-->
+<!--      <dependency>-->
+<!--          <groupId>org.junit.jupiter</groupId>-->
+<!--          <artifactId>junit-jupiter</artifactId>-->
+<!--          <version>5.4.2</version>-->
+<!--          <scope>test</scope>-->
+<!--      </dependency>-->
+
+      <dependency>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.8.2</version>
+
+      </dependency>
+
 
   </dependencies>
 </project>

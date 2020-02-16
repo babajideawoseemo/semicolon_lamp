@@ -4,7 +4,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 import com.lamp.entities.Applicant;
-import com.sun.tools.javac.util.List;
+import java.util.List;
 
 @Repository
 public interface ApplicantRepository extends MongoRepository<Applicant, String> {

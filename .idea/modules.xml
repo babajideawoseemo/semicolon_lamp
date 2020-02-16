@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lamp/lamp.iml" filepath="$PROJECT_DIR$/lamp/lamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lamp/lamp_data/lamp_data.iml" filepath="$PROJECT_DIR$/lamp/lamp_data/lamp_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lamp/lamp_service/lamp_service.iml" filepath="$PROJECT_DIR$/lamp/lamp_service/lamp_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lamp/lamp_web/lamp_web.iml" filepath="$PROJECT_DIR$/lamp/lamp_web/lamp_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/semicolon_lamp.iml" filepath="$PROJECT_DIR$/.idea/semicolon_lamp.iml" />
     </modules>
   </component>
