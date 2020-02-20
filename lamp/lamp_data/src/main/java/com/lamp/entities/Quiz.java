@@ -8,13 +8,14 @@ public class Quiz {
     private QuizResponse quizResponse;
     private byte allocatedSecondsPerQuestion;
     private byte quizScore = 0;
+    private boolean isQuizMarked;
 
 
-    public Quiz(QuizQuestion[] quizQuestion, byte allocatedSecondsPerQuestion){
-    	this.question = quizQuestion;
-    	this.allocatedSecondsPerQuestion = allocatedSecondsPerQuestion;
+    public Quiz(QuizQuestion[] quizQuestion, byte allocatedSecondsPerQuestion) {
+        this.question = quizQuestion;
+        this.allocatedSecondsPerQuestion = allocatedSecondsPerQuestion;
 
-	}
+    }
 
     public QuizQuestion[] getQuestion() {
         return question;
@@ -56,5 +57,14 @@ public class Quiz {
         this.allocatedSecondsPerQuestion = allocatedTimeInSeconds;
     }
 
-
+    public void marKQuiz() {
+        if (!isQuizMarked) {
+            for (int i = 0; i < question.length; i++) {
+                if (getQuestion()[i].getRightOptions() == quizResponse.getQuizResponse()[i]) {
+                    quizScore++;
+                }
+                isQuizMarked = true;
+            }
+        }
+    }
 }

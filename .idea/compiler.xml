@@ -11,7 +11,7 @@
         <module name="lamp_web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="13">
       <module name="lamp" target="1.5" />
       <module name="lamp_data" target="1.5" />
       <module name="lamp_service" target="1.5" />

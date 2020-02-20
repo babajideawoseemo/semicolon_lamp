@@ -5,9 +5,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class ApplicantTest {
-
+    Applicant applicant;
     @BeforeEach
     void setUp() {
+        applicant = new Applicant();
     }
 
     @AfterEach

@@ -1,13 +1,16 @@
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/Applicant.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/QuestionList.java
+/home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/QuizOption.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/QuestionnaireResponse.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/QuestionnaireQuestion.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/Native.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/Batch.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/Quiz.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/dao/ApplicantRepository.java
+/home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/QuizResponse.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/QuizQuestion.java
+/home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/Interview.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/QuizPool.java
-/home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/ApplicantQuizResponse.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/Questionnaire.java
+/home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/OptionList.java
 /home/scv2003/Downloads/Projects/lamp backend/semicolon_lamp/lamp/lamp_data/src/main/java/com/lamp/entities/ApplicationStatus.java
